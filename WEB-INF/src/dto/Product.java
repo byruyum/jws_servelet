@@ -106,15 +106,15 @@ public class Product implements Serializable { // 인터페이스 선언
     {
 		this.condition = condition;
 	}
-    
-    public void setFilename(String filename) 
-    { // 파일 이름 설정
-	this.filename = filename;
-    }
 
      public String getFilename() 
      { // 파일 이름 리턴
     	return filename;
+     }
+    
+        public void setFilename(String filename) 
+     { // 파일 이름 설정
+	this.filename = filename;
      }
 
 }

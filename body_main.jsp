@@ -3,7 +3,7 @@
 <%@ page import="dto.Product"%>
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
 
-<%! String greeting = "꾸팡.COM에 오신것을 환영합니다.";
+<%! String greeting = "밀렵했습니당!";
 	String tagline = "하단 페이지 : 확인";%>
 <div class="container">
 	<div class="jumbotron">
@@ -24,7 +24,7 @@
 			%>
 			<div class="col-md-4">
                 <div class="card bg-dark text-white">
-                        <img src="image/product/<%=product.getProductId()%>.jpg" class="card-img" alt="...">
+                        <img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <p class="card-text">출처 : 구글 검색</p>
                         </div>
