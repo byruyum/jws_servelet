@@ -26,7 +26,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">상품명</label>
 				<div class="col-sm-3">
-					<input type="text" " id ="name" name="name" class="form-control" >
+					<input type="text" id ="name" name="name" class="form-control" >
 				</div>
 			</div>
 			<div class="form-group row">
@@ -63,7 +63,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">상태</label>
 				<div class="col-sm-5">
-					<input type="radio" name="condition" value="New " > 신규 제품 
+					<input type="radio" name="condition" value="New" > 신규 제품 
 					<input type="radio" name="condition" value="Old" > 중고 제품 
 					<input type="radio" name="condition" value="Refurbished" > 재생 제품
 				</div>
@@ -77,6 +77,8 @@
                 <label class ="col-sm-2">이미지</label>
                     <div class ="col-sm-5">
                           <input type ="button" class="btn btn-primary" value="등록" onclick ="CheckAddProduct()">
+                          <a href="../login/logout.jsp" class="btn btn-sm btn-success pull-right">로그아웃</a>
+
                     </div>
              </div>
 		</form>
