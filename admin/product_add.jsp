@@ -78,7 +78,6 @@
                     <div class ="col-sm-5">
                           <input type ="button" class="btn btn-primary" value="등록" onclick ="CheckAddProduct()">
                           <a href="../login/logout.jsp" class="btn btn-sm btn-success pull-right">로그아웃</a>
-
                     </div>
              </div>
 		</form>
