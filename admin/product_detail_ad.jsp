@@ -35,7 +35,9 @@
 				<p><b>분류</b> : <%=product.getCategory()%>
 				<p><b>재고 수</b> : <%=product.getUnitsInStock()%>
 				<h4><%=product.getUnitPrice()%>원</h4>
-<div class="card bg-dark text-white">
+                
+                
+    <div class="card bg-dark text-white">
                     <img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                     <div class="card-img-overlay">
                     <h5 class="card-title">상품 이미지 원본</h5>
