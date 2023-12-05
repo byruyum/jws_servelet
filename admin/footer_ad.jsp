@@ -1,4 +1,5 @@
 <%@ page contentType = "text/html;charset=utf-8" %>
+<%@ page import="java.util.Date" %>
 <footer class="container">
 	<p>&copy; 쇼핑몰 대표 : 정우성, 고유번호 : 20221021, 010-3215-2672 : jws031024@gmail.com<br> 
 

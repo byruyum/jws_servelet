@@ -6,7 +6,7 @@ function CheckAddProduct() {
 	var unitsInStock = document.getElementById("unitsInStock");
 	
 	// 상품아이디 체크
-	if (!check(/^p[0-9]{4,11}$/, productId,
+	if (!check(/^p[0-9]{4,11}$/, productId,//소문자p로 변경
 			"[상품 코드]\np와 숫자를 조합하여 5~12자까지 입력하세요\n첫 글자는 반드시 p로 시작하세요"))
 		return false;
 	// 상품명 체크
